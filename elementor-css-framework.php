@@ -3,7 +3,7 @@
  * Plugin Name: Elementor CSS Framework
  * Description: Add custom CSS framework classes to Elementor sections and edit CSS variables
  * Version: 1.0.0
- * Author: Your Name
+ * Author: dcnz
  * Text Domain: elementor-css-framework
  */
 
