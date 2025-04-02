@@ -1,0 +1,26 @@
+/* CSS Framework Variables */
+
+:root {
+    --fluid-side-padding-min: 1.25rem; /* Left/Right Min Padding (20px) */
+    --fluid-side-padding-max: 5rem; /* Left/Right Max Padding (80px) */
+    --section-xxl-padding-min: 9.375rem; /* XXL Top/Bottom Min Padding (150px) */
+    --section-xxl-padding-max: 10rem; /* XXL Top/Bottom Max Padding (160px) */
+    --section-xl-padding-min: 6.875rem; /* XL Top/Bottom Min Padding (110px) */
+    --section-xl-padding-max: 7.5rem; /* XL Top/Bottom Max Padding (120px) */
+    --section-l-padding-min: 5.625rem; /* Large Top/Bottom Min Padding (90px) */
+    --section-l-padding-max: 6.25rem; /* Large Top/Bottom Max Padding (100px) */
+    --section-m-padding-min: 5rem; /* Medium Top/Bottom Min Padding (80px) */
+    --section-m-padding-max: 5rem; /* Medium Top/Bottom Max Padding (80px) */
+    --section-s-padding-min: 3.75rem; /* Small Top/Bottom Min Padding (60px) */
+    --section-s-padding-max: 3.75rem; /* Small Top/Bottom Max Padding (60px) */
+    --section-xs-padding-min: 2.5rem; /* XS Top/Bottom Min Padding (40px) */
+    --section-xs-padding-max: 2.5rem; /* XS Top/Bottom Max Padding (40px) */
+    --section-xxs-padding-min: 1.5rem; /* XXS Top/Bottom Min Padding (24px) */
+    --section-xxs-padding-max: 1.5rem; /* XXS Top/Bottom Max Padding (24px) */
+    --section-header-padding-min: 1.25rem; /* Header Top/Bottom Min Padding (20px) */
+    --section-header-padding-max: 1.25rem; /* Header Top/Bottom Max Padding (20px) */
+    --section-hero-height: 100vh; /* Hero Section Height (100% viewport height) */
+    --section-offset-header: 80px; /* Offset Padding for Overlay Headers (80px) */
+    --section-narrow: 62.5rem; /* Narrow Section Width (1000px) */
+    --section-narrow-xs: 45rem; /* Extra Narrow Section Width (720px) */
+}

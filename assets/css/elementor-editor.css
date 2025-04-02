@@ -1,0 +1,50 @@
+/**
+ * Elementor CSS Framework - Editor Styles
+ */
+
+/* This file ensures our classes are properly displayed in the Elementor editor */
+
+/* Only apply hover effects to our framework section classes, not Elementor UI elements */
+.elementor-editor-active .elementor-element.section-xxl::before,
+.elementor-editor-active .elementor-element.section-xl::before,
+.elementor-editor-active .elementor-element.section-l::before,
+.elementor-editor-active .elementor-element.section-m::before,
+.elementor-editor-active .elementor-element.section-s::before,
+.elementor-editor-active .elementor-element.section-xs::before,
+.elementor-editor-active .elementor-element.section-xxs::before,
+.elementor-editor-active .elementor-element.section-header::before,
+.elementor-editor-active .elementor-element.section-hero::before,
+.elementor-editor-active .elementor-element.section-full::before,
+.elementor-editor-active .elementor-element.section-narrow::before,
+.elementor-editor-active .elementor-element.section-narrow-xs::before,
+.elementor-editor-active .elementor-element.section-offset::before {
+    content: attr(class);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-size: 10px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.elementor-editor-active .elementor-element.section-xxl:hover::before,
+.elementor-editor-active .elementor-element.section-xl:hover::before,
+.elementor-editor-active .elementor-element.section-l:hover::before,
+.elementor-editor-active .elementor-element.section-m:hover::before,
+.elementor-editor-active .elementor-element.section-s:hover::before,
+.elementor-editor-active .elementor-element.section-xs:hover::before,
+.elementor-editor-active .elementor-element.section-xxs:hover::before,
+.elementor-editor-active .elementor-element.section-header:hover::before,
+.elementor-editor-active .elementor-element.section-hero:hover::before,
+.elementor-editor-active .elementor-element.section-full:hover::before,
+.elementor-editor-active .elementor-element.section-narrow:hover::before,
+.elementor-editor-active .elementor-element.section-narrow-xs:hover::before,
+.elementor-editor-active .elementor-element.section-offset:hover::before {
+    opacity: 1;
+}

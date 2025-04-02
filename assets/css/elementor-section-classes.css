@@ -1,0 +1,89 @@
+/* CSS Framework Classes */
+
+/* Import variables */
+@import url('variables.css');
+
+/* Section/Container Padding - Fluid Variants */
+.section-xxl {
+  padding-top: clamp(var(--section-xxl-padding-min), 1.087vw + 9.13rem, var(--section-xxl-padding-max));
+  padding-bottom: clamp(var(--section-xxl-padding-min), 1.087vw + 9.13rem, var(--section-xxl-padding-max));
+  padding-left: clamp(var(--fluid-side-padding-min), 6.522vw + -0.217rem, var(--fluid-side-padding-max))!important;
+  padding-right: clamp(var(--fluid-side-padding-min), 6.522vw + -0.217rem, var(--fluid-side-padding-max))!important;
+}
+
+.section-xl {
+  padding-top: clamp(var(--section-xl-padding-min), 1.087vw + 6.63rem, var(--section-xl-padding-max));
+  padding-bottom: clamp(var(--section-xl-padding-min), 1.087vw + 6.63rem, var(--section-xl-padding-max));
+  padding-left: clamp(var(--fluid-side-padding-min), 6.522vw + -0.217rem, var(--fluid-side-padding-max))!important;
+  padding-right: clamp(var(--fluid-side-padding-min), 6.522vw + -0.217rem, var(--fluid-side-padding-max))!important;
+}
+
+.section-l {
+  padding-top: clamp(var(--section-l-padding-min), 1.087vw + 5.38rem, var(--section-l-padding-max));
+  padding-bottom: clamp(var(--section-l-padding-min), 1.087vw + 5.38rem, var(--section-l-padding-max));
+  padding-left: clamp(var(--fluid-side-padding-min), 6.522vw + -0.217rem, var(--fluid-side-padding-max))!important;
+  padding-right: clamp(var(--fluid-side-padding-min), 6.522vw + -0.217rem, var(--fluid-side-padding-max))!important;
+}
+
+.section-m {
+  padding-top: clamp(var(--section-m-padding-min), 0vw + 5rem, var(--section-m-padding-max));
+  padding-bottom: clamp(var(--section-m-padding-min), 0vw + 5rem, var(--section-m-padding-max));
+  padding-left: clamp(var(--fluid-side-padding-min), 6.522vw + -0.217rem, var(--fluid-side-padding-max))!important;
+  padding-right: clamp(var(--fluid-side-padding-min), 6.522vw + -0.217rem, var(--fluid-side-padding-max))!important;
+}
+
+.section-s {
+  padding-top: clamp(var(--section-s-padding-min), 0vw + 3.75rem, var(--section-s-padding-max));
+  padding-bottom: clamp(var(--section-s-padding-min), 0vw + 3.75rem, var(--section-s-padding-max));
+  padding-left: clamp(var(--fluid-side-padding-min), 6.522vw + -0.217rem, var(--fluid-side-padding-max))!important;
+  padding-right: clamp(var(--fluid-side-padding-min), 6.522vw + -0.217rem, var(--fluid-side-padding-max))!important;
+}
+
+.section-xs {
+  padding-top: clamp(var(--section-xs-padding-min), 0vw + 2.5rem, var(--section-xs-padding-max));
+  padding-bottom: clamp(var(--section-xs-padding-min), 0vw + 2.5rem, var(--section-xs-padding-max));
+  padding-left: clamp(var(--fluid-side-padding-min), 6.522vw + -0.217rem, var(--fluid-side-padding-max))!important;
+  padding-right: clamp(var(--fluid-side-padding-min), 6.522vw + -0.217rem, var(--fluid-side-padding-max))!important;
+}
+
+.section-xxs {
+  padding-top: clamp(var(--section-xxs-padding-min), 0vw + 1.5rem, var(--section-xxs-padding-max));
+  padding-bottom: clamp(var(--section-xxs-padding-min), 0vw + 1.5rem, var(--section-xxs-padding-max));
+  padding-left: clamp(var(--fluid-side-padding-min), 6.522vw + -0.217rem, var(--fluid-side-padding-max))!important;
+  padding-right: clamp(var(--fluid-side-padding-min), 6.522vw + -0.217rem, var(--fluid-side-padding-max))!important;
+}
+
+.section-header {
+  padding-top: clamp(var(--section-header-padding-min), 0vw + 1.25rem, var(--section-header-padding-max));
+  padding-bottom: clamp(var(--section-header-padding-min), 0vw + 1.25rem, var(--section-header-padding-max));
+  padding-left: clamp(var(--fluid-side-padding-min), 6.522vw + -0.217rem, var(--fluid-side-padding-max))!important;
+  padding-right: clamp(var(--fluid-side-padding-min), 6.522vw + -0.217rem, var(--fluid-side-padding-max))!important;
+}
+
+/* Hero Container/Sections Height */
+.section-hero {
+  min-height: var(--section-hero-height)!important;
+}
+
+.section-hero .e-con-inner {
+  justify-content: center!important;
+}
+
+/* Full Width Sections - No Side Padding */
+.section-full div {
+  max-width: 100%!important;
+}
+
+/* Narrow Sections */
+.section-narrow .e-con-inner {
+  max-width: var(--section-narrow)!important;
+}
+
+.section-narrow-xs .e-con-inner {
+  max-width: var(--section-narrow-xs)!important;
+}
+
+/* Offset Padding for Overlay Headers */
+.section-offset {
+  padding-top: calc(var(--section-offset-header) + var(--section-xxl-padding-min));
+}

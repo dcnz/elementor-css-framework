@@ -1,0 +1,134 @@
+/**
+ * Elementor CSS Framework - Admin Styles
+ */
+
+ .ecf-admin {
+    max-width: 1200px;
+}
+
+/* Variables Form */
+.ecf-variables-form {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    margin-top: 20px;
+}
+
+.ecf-form-header,
+.ecf-form-footer {
+    padding: 15px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ecf-form-footer {
+    border-top: 1px solid #ddd;
+    border-bottom: none;
+}
+
+.ecf-variables-container {
+    padding: 15px;
+    max-height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ecf-variable-row {
+    display: flex;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.ecf-variable-row:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.ecf-variable-name {
+    flex: 0 0 40%;
+    padding-right: 20px;
+}
+
+.ecf-variable-value {
+    flex: 0 0 60%;
+}
+
+.ecf-variable-name label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.ecf-variable-description {
+    color: #666;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+
+.ecf-variable-value input[type="text"] {
+    width: 100px;
+}
+
+.ecf-search input[type="text"] {
+    width: 300px;
+}
+
+.ecf-messages {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.ecf-messages .notice {
+    margin: 0;
+}
+
+/* CSS Editor */
+.ecf-tabs {
+    margin-top: 20px;
+}
+
+.ecf-tab-buttons {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.ecf-tab-button {
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 10px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+}
+
+.ecf-tab-button.active {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.ecf-tab-panel {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.ecf-tab-panel.active {
+    display: block;
+}
+
+.ecf-code-editor {
+    width: 100%;
+    min-height: 400px;
+}
+
+.CodeMirror {
+    height: 500px;
+    border: 1px solid #ddd;
+}
